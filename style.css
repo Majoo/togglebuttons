@@ -1,0 +1,36 @@
+/* CSS file*/
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Flex Layout */
+#links {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+/* Button Styling */
+#links a, #links a:hover, #links a:active, #links a:visited {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: default;
+  min-width: 120px;
+  height: 2.5em;
+  line-height: 2.5;
+  margin: 0.5em;
+}
+
+#links a {
+  background-color: #07CDFF;
+}
+
+#links a:hover {
+  background-color: #059CC1;
+}
+
+#links a.active, #links a:active {
+  background-color: #02407A;
+}
